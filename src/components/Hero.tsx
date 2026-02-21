@@ -25,13 +25,23 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+      <div className="absolute inset-0 bg-black/50 z-[1]" />
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="uppercase tracking-[0.3em] text-sm md:text-base mb-6 opacity-80">
+          Вместе — сильнее
         </p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-tight">
+          СВОИХ<br />НЕ БРОСАЕМ
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 leading-relaxed mb-10">
+          Поддержка военнослужащих, участвующих в СВО, и их семей. Укрепляем дух, решаем насущные проблемы, демонстрируем единство общества.
+        </p>
+        <a
+          href="#help"
+          className="inline-block bg-white text-neutral-900 px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Помочь сейчас
+        </a>
       </div>
     </div>
   );
