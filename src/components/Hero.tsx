@@ -37,7 +37,7 @@ export default function Hero() {
           Поддержка военнослужащих, участвующих в СВО, и их семей. Укрепляем дух, решаем насущные проблемы, демонстрируем единство общества.
         </p>
         <a
-          href="#help"
+          href="tel:+79179272443"
           className="inline-block bg-white text-neutral-900 px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
         >
           Помочь сейчас
