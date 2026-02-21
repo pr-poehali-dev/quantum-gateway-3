@@ -37,6 +37,22 @@ export default function Footer() {
                 >
                   +7 917 927-24-43
                 </a>
+                <a
+                  href="https://wa.me/79179272443"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  WhatsApp
+                </a>
+                <a
+                  href="https://t.me/Rek2010"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Telegram
+                </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Поддержка</h3>
